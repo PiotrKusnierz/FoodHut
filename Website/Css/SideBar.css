@@ -1,0 +1,67 @@
+
+.sidebar {
+    display: none;
+    left: -172px;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: rgba(144, 238, 144, 1);
+    border-right:  1px solid ;
+    border-bottom: 1px solid ;
+    border-radius: 6px;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.sidebar button {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 168px;
+
+}
+
+.sidebarLinks {
+    width: 162px;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+
+.sidebarLinks a {
+    text-transform: uppercase;
+    margin: 5px 0;
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+    font-size: 20px;
+    flex: 1;
+    text-decoration: none;
+    color: black;
+    border-width: 2px;
+    border-bottom: 1px solid black;
+    padding:10; 
+  }
+
+  .sidebarLinks a:hover{
+
+    box-shadow: 1px 2px 5px 1px black;
+    border-radius: 5px;
+  }
+
+#sidebarContact {
+    border: hidden;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*sdfsdf*/

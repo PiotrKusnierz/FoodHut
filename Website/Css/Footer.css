@@ -1,0 +1,50 @@
+
+
+.footer {
+  margin-top: 200px;
+  background-color: black;
+  color: #CCC;
+  padding: 50px;
+}
+
+.footer h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer li {
+  width: 60%;
+  margin: auto;
+  /*  Min kode */
+  letter-spacing: .05em;
+  line-height: 2em;
+}
+.footer h1{
+  color: green;
+}
+
+table tr td:first-child {
+    padding-right: 20px;
+}
+
+table tr {
+    padding-bottom: 20px;
+}
+
+table {
+    padding:12px 12px;
+    border-top:  1px solid white;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: auto;
+}
+
+td a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #CCC;
+}
+
+td a:hover {
+    color: #90EE90;
+}

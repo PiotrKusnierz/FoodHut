@@ -1,0 +1,32 @@
+.section img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 4px 4px 20px 1px black;
+}
+
+
+h2 {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section p {
+    font-size: 24px;
+}
+#quotation {
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+#pAsWe, #pAsWe2 {
+    padding-top: 50px;
+}
+
+#source1, #source2 {
+    font-size: 15px;
+    text-align: center;
+}

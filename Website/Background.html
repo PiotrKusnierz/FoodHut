@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="Css/Main.css" rel="stylesheet">
+        <link href="Css/Header.css" rel="stylesheet">
+        <link href="Css/NavBar.css" rel="stylesheet">
+        <link href="Css/SideBar.css" rel="stylesheet">
+        <link href="Css/Footer.css" rel="stylesheet">
+        <link href="Css/TheWhy.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <link rel="shortcut icon" href="Pictures/foodhutfinal_6GO_icon.ico">
+        <script src="./Scripts/Sidebar.js"></script>
+        <title>FoodHut</title>
+    </head>
+
+    <body>
+        <div class="mainHeader" id="header">
+            <div class="mainHeaderContent">
+                <div id="logo">
+                    <a href="Index.html"><img src="Pictures/foodHutFinal.png" alt="Protainer logo"></a>
+                    <p id="subHeader">Making food waste a resource</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <button type="button" id="sidebarToggle">
+                <img src="Pictures/ToggleMenu.png" alt="menu button" width="32" height="32">
+            </button>
+            <div class="sidebarLinks">
+                <a href="Index.html">HOME</a>
+                <a class="ActivePage" href="Background.html">Background</a> <!-- Statistics, economy, environment -->
+                <a href="FoodHut.html">What is FoodHut?</a> <!-- Explaining the product -->
+                <a href="Implementation.html">Implementation</a> <!-- Explaining the implementation, and the necessary rule changes government-side -->
+                <a href="UsefulInformation.html">Useful information</a>
+                <a href="#footer" id="sidebarContact">Contact</a> <!-- Link to bottom of page -->
+            </div>
+        </div>
+
+        <div class="navBarBackground">
+            <div class="logoHome">
+                <a href="Index.html">
+                    <img src="Pictures/logoNav-Final.png" alt="home logo" style="width:40px; height:40px; position:relative; top:-10px;" class="image">
+                </a> <!-- Få inn logo her -->
+            </div>
+
+            <div class="Home">
+                <a href="Index.html"><p>HOME</p></a>
+            </div>
+
+            <div class="navBar">
+                <a class="ActivePage" href="Background.html">Background</a> <!-- Statistics, economy, environment -->
+                <a href="FoodHut.html">What is FoodHut?</a> <!-- Explaining the product -->
+                <a href="Implementation.html">Implementation</a> <!-- Explaining the implementation, and the necessary rule changes government-side -->
+                <a href="UsefulInformation.html">Useful information</a>
+                <a href="#footer">Contact</a> <!-- Link to bottom of page -->
+            </div>
+        </div>
+
+    <div class="mainContent">
+      <div class="section s1">
+          <p> “If food waste were a country, it would be the third largest emitter of greenhouse gases.
+              That is because a lot of productive land and soil go to waste.
+              Food waste is therefore a major contributor to climate change.
+              Climate change, in turn, undermines food production and food security.” </p>
+          <p id="quotation">These are the <a href="https://www.regjeringen.no/no/aktuelt/public-private-partnerships-for-preventing-food-waste/id2557214/" target="_blank">words</a>
+              of the Norwegian minister of Climate and Environment
+              Vidar Helgesen, at the EAT Stockholm Food Forum 12. juni 2017.
+          </p>
+        </div>
+
+        <div class="lineDivider"><div class="lDivLeft"></div><div class="lDivBall"></div><div class="lDivRight"></div></div>
+
+        <div class="section s2">
+          <h1>Environmental and Economic impacts of food waste</h1>
+          <p>Food waste is a serious matter which has a major impact on our environment. Our project is focused on finding a solution that will help us reduce this problem.</p>
+          <p>Let us first look at how much food is thrown away and the consequences that follow. In the period from 2010 to 2015, two scientists from Østfoldforskning, Aina Stensgård and Ole Jørgen Hanssen, did some research on the subject of food-waste. We will use some of that research to our benefit.</p>
+
+            <img src="Pictures/Stats1.png" alt="Statistics showing that we throw away to much food">
+
+          <p id="source1"><a href=" http://matsvinn.no/wp-content/uploads/2016/09/ForMat-prosjektets-sluttrapport.pdf" target="_blank">Source</a></p>
+          <p id="pAsWe">As we can see from these numbers, Norwegians throw away an enormous amount of food each year, approximately 355 128 tons/year in total. That amount is responsible for the emission of 978 000 tons of CO2,
+          and as a result generates a cost of 20,5 billion NOK per annum.</p>
+      </div>
+
+      <div class="lineDivider"><div class="lDivLeft"></div><div class="lDivBall"></div><div class="lDivRight"></div></div>
+
+      <div class="section s3">
+        <h1>Distribution of food surplus</h1>
+        <p>A huge part of food waste is generated by grocery stores and supermarkets. According to the non profitable organisation <a href="https://www.framtiden.no/aktuelle-rapporter/824-norwegian-supermarkets-and-food-waste-prevention-and-redistribution-strategies/file.html" target="_blank">Framtiden i våre hender</a>, Norway has almost 4000 supermarkets. This number puts our country among the European
+        leaders for the number of supermarkets per capita. Most of the food at these supermarkets gets sold, but not everything. Some of the remaining food surplus finds its way to charity, but most of it is not effectively redistributed.</p>
+        <img src="Pictures/Stats2.png" alt="Statistics showing that only 48% of food surplus is given to charity">
+        <p id="source2"><a href="https://www.framtiden.no/aktuelle-rapporter/824-norwegian-supermarkets-and-food-waste-prevention-and-redistribution-strategies/file.html" target="_blank">Source</a></p>
+        <p id="pAsWe2">As we can see in the diagram above, only 48 % of supermarkets reported donating parts of their food surplus to
+        charity in 2015, however that tendency is decreasing. The rest is getting wasted, and according to <a href=" http://matsvinn.no/wp-content/uploads/2016/09/ForMat-prosjektets-sluttrapport.pdf" target="_blank">
+        Hanssen & Stensgård</a>, generating “annual emissions of up to 150 000 tons of CO2 and financial losses
+        of more than 3 billion NOK a year”.</p>
+        <p>We decided to find a solution that could help with redistribution of unwanted food surplus to avoid it
+        going to waste. Our idea, called “FoodHut”, supports an alternative way of surplus redistribution. Read more about it <a href="FoodHut.html">here.</a></p>
+      </div>
+
+    </div>
+
+        <div class="footer" id="footer">
+            <h1>Contact</h1>
+            <table>
+                <tr>
+                    <td>Inge Brochmann</td>
+                    <td><a href="mailto:s326160@stud.hioa.no">s326160@stud.hioa.no</a></td>
+                </tr>
+                <tr>
+                    <td>Morten Bråtesveen-S</td>
+                    <td><a href="mailto:s326152@stud.hioa.no">s326152@stud.hioa.no</a></td>
+                </tr>
+                <tr>
+                    <td>Sebastian Jarsve</td>
+                    <td><a href="mailto:s326192@stud.hioa.no">s326192@stud.hioa.no</a></td>
+                </tr>
+                <tr>
+                    <td>Piotr Kusnierz</td>
+                    <td><a href="mailto:s326178@stud.hioa.no">s326178@stud.hioa.no</a></td>
+                </tr>
+                <tr>
+                    <td>Jacob Larsen</td>
+                    <td><a href="mailto:s326186@stud.hioa.no">s326186@stud.hioa.no</a></td>
+                </tr>
+                <tr>
+                    <td>Mathias Lundby</td>
+                    <td><a href="mailto:s326166@stud.hioa.no">s326166@stud.hioa.no</a></td>
+                </tr>
+                <tr>
+                    <td>Alexandros Messaritakis.C</td>
+                    <td><a href="mailto:s326156@stud.hioa.no">s326156@stud.hioa.no</a></td>
+                </tr>
+            </table>
+            <!-- <p>We decided to find a solution that could help with redistribution of unwanted food surplus to avoid it -->
+            <!-- getting wasted. Our idea, called “FoodHut”, supports an alternative way of surplus redistribution. Read more about it <a href="FoodHut.html">here.</a></p> -->
+        </div>
+    </body>
+</html>
