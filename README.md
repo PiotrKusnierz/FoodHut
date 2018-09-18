@@ -1,6 +1,6 @@
 # FoodHut
 Semester assignment for a Web Project course.  
-Implemented in HTML, CSS, JS without use of any frameworks and libraries.
+Implemented in HTML, CSS, JS without use of any frameworks or libraries.
 ## Members  
 Sebastian Jarsve, Inge Brochmann, Piotr Kusnierz, Morten Bråtesveen, Jacob Larsen, Mathias Lundby, Alexandros Messaritakis
 ## Website:
